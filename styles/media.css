@@ -1,0 +1,67 @@
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+  body {
+    background-color: #ffcd9e;
+  }
+  .nav {
+    width: 95%;
+  }
+  .nav th{
+    display: block;
+    border: none;
+    height: 100px;
+    padding: 35px 0;
+    display: inline-block;
+    width: 44%;
+  }
+  .nav th a {
+    font-size: 45px;
+  }
+  table tr td {
+    font-size: 40px;
+  }
+  table img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 50%;
+    margin: 450px 260px;
+  }
+  table th {
+    font-size: 45px;
+  }
+  table td {
+    text-align: center;
+  }
+  .personal tr td:nth-child(3){
+    width: 0;
+    margin-bottom: 150px;
+  }
+  .degree {
+    margin-top: 800px;
+  }
+}
+@media only screen and (min-device-width: 813px) and (max-device-width: 1200px) {
+  body{
+    background-color: #85cb84;
+  }
+}
+@media only screen and (max-device-width: 374px) {
+  body{
+    background-color: #48a7a4;
+  }
+}
+@media only screen and (min-device-width: 1201px) {
+  body{
+    background-color: rgb(170, 84, 181);
+  }
+}
+
+  h1, h2, h3, h4, h5, h6 {
+      voice-family: Paul;
+      stress: 20;
+      richness: 90;
+   }
+   p {
+      azimuth:center-right;
+   }

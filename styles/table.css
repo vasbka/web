@@ -1,0 +1,15 @@
+table tr td:first-child {
+  text-align: center;
+  font-weight: bold;
+  font-family: monospace;
+}
+table td {
+  padding: 3px 8px;  
+}
+
+table tr:nth-child(2n){
+  background-color: #8bb6e0;
+}
+table tr:nth-child(2n + 1){
+  background-color: #dedd6e;
+}

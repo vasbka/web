@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/mainText.css">
+    <link rel="stylesheet" href="styles/title.css">
+    <link rel="stylesheet" href="styles/menu.css">
+    <link rel="stylesheet" href="styles/image.css">
+    <link rel="stylesheet" href="styles/table.css">
+    <link rel="stylesheet" href="styles/media.css">
   </head>
   <body>
-    <!-- Скрізний список для кожного заголовку -->
     <ol style="list-style-type:upper-roman">
-      <table width="100%">
+      <table width="100%" class="nav">
         <thead>
           <tr>
             <!-- Таблиця з самими заголовками для меню -->
@@ -24,7 +30,7 @@
         <!-- link з ім'ям для навігація по сторінці -->
         <h3><a name="pageMenu"></a>Page menu</h3>
       </li>
-      <table width="100%">
+      <table width="100%" class="nav">
         <tr>
           <th><a href="#personal">Personal data</a></th>
           <th><a href="#degree">Academic degree Obtained</a></th>
@@ -38,7 +44,7 @@
         <h3><a name="personal"></a>Personal data</h3>
       </li>
       <hr size="3" widht="3" color="gray" />
-      <table width="100%">
+      <table width="100%" class="personal">
         <thead>
           <tr>
             <th width="15%"></th>
@@ -89,7 +95,7 @@
         </tbody>
       </table>
 
-      <li>
+      <li class="degree">
         <h3><a name="degree"></a>Academic Degrees Obtained</h3>
       </li>
       <hr />

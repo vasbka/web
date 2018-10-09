@@ -1,0 +1,10 @@
+img {
+  border: 15px solid rgba(#6f8aa4, 0.43);
+  border-radius: 50px 0 50px 0;
+  transition: 0.45s;
+}
+
+img:hover {
+  border-radius: 0px 50px 0 50px;
+  cursor: crosshair;
+}
